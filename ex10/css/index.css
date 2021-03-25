@@ -1,0 +1,82 @@
+body {
+    background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+    padding: 80px;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    justify-items: center;
+}
+
+img {
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    color: white;
+}
+
+.text-input {
+    width: 60%;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid black;
+}
+
+.primary-btn {
+    display: block;
+    width: 60%;
+    color: white;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+
+#links a {
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.hr-bar {
+    width: 60%;
+}
+
+#main-footer {
+    color: white;
+}
+
+#main-footer a:last-child {
+    margin: 0;
+    padding: 0 10px;
+    border-left: #ccc solid 1px;
+}
+
+#right {
+    float: right;
+    color: white;
+    font-size: large;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    padding: 20px auto;
+    width: 60%;
+    height: 100%;
+}
+
+#showcase-content {
+    position: relative;
+    width: 100%;
+}
+
+.secondary-btn {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: aqua;
+    margin: 20px auto;
+    text-decoration: none;
+    color: white;
+}
